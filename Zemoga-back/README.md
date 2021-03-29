@@ -4,7 +4,7 @@
 
 you can run the back end locally by following the steps below
 
-1. Create a .env file in the main folder with the following information:
+Create a .env file in the main folder with the following information:
 
 ```
     //CONFIG  
@@ -20,10 +20,11 @@ you can run the back end locally by following the steps below
 
 This is because the back is connected to a *mongo atlas* instance and requires the access data.
 
-2. Run the command:
-`npm install`
-This is because you need to install all the necessary node dependencies for the project to work.
+```bash
+# install all the necessary node dependencies for the project to work
+$ npm install
 
-3. Run the command
-`npm run dev`
-This final command allows us to run the local server.
+# allows us to run the local server
+$ npm run dev
+
+```
