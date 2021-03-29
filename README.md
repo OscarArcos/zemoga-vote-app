@@ -10,7 +10,7 @@ The backend is a REST API fed with the [information of the people provided by Ze
 
 To access the back end files directory run the command
 
-`cd Zemoga-back`
+`$ cd Zemoga-back`
 
 **Front end** 💻
 
@@ -18,4 +18,4 @@ The front end is built with [Nuxt.js](https://nuxtjs.org/ "Nuxt.js") which is a 
 
 To access the back end files directory run the command
 
-`cd Zemoga-prueba-tecnica`
+`$ cd Zemoga-prueba-tecnica`
