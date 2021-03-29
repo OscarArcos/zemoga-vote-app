@@ -59,6 +59,7 @@ export default {
     }
   },
   computed: {
+    /* This method is used to bring the information of the state with the getters */
     ...mapGetters({
       people: 'people/allPeople',
     }),

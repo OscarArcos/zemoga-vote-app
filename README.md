@@ -2,7 +2,7 @@
 ##### Created by Oscar Arcos 👨‍💻
 
 ### Overview
-This test is based on [Zemoga Front End Development - Candidate Test v2.1](https://github.com/zemoga/ui-test "Zemoga Front End Development - Candidate Test v2.1") in order to show my skills as a front end developer to apply for the vacancy. The project has 2 main modules, (The [Back end](https://github.com/OscarArcos/ZemogaFrontTest/tree/master/Zemoga-back "Back end") and the [Front end](https://github.com/OscarArcos/ZemogaFrontTest/tree/master/Zemoga-prueba-tecnica "Front end")).
+This test is based on [Zemoga Front End Development - Candidate Test v2.1](https://github.com/zemoga/ui-test "Zemoga Front End Development - Candidate Test v2.1") in order to show my skills as a front end developer to apply for the vacancy. The project has 2 main modules, (The [Back end](https://github.com/OscarArcos/zemoga-vote-app/tree/master/Zemoga-back) and the [Front end](https://github.com/OscarArcos/zemoga-vote-app/tree/master/Zemoga-prueba-tecnica))
 
 **Back end** 🚀
 
