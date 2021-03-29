@@ -418,8 +418,6 @@ export default {
 }
 .botonBordered {
   border: 2px solid white;
-  width: 2.3rem;
-  height: 2.3rem;
 }
 .notDisabled {
   background-color: #00000088;
