@@ -12,14 +12,14 @@ To access the back end files directory run the command
 
 `$ cd Zemoga-back`
 
-Nevertheless, you can find a deployed version in the following [link](https://zemoga-back.vercel.app/api/people "link").
+Nevertheless, you can find a deployed version in the following [link](https://zemoga-back.vercel.app/api/people "link"). 💻
 
 **Front end** 💻
 
-The front end is built with [Nuxt.js](https://nuxtjs.org/ "Nuxt.js") which is a Vue.js framework that helps us and make it easy the management of data states and more specs. Also, the css preprocessor called sass is being used for the main html styles.
+The front end is built with [Nuxt.js](https://nuxtjs.org/ "Nuxt.js") which is a Vue.js framework that helps us and make it easy the management of data states and more specs. Also, the css preprocessor called [sass](https://sass-lang.com/ "sass") is being used for the main html styles.
 
 To access the back end files directory run the command
 
 `$ cd Zemoga-prueba-tecnica`
 
-Likewise, you can find a front deployed version in the following [link](https://inlaid-subset-309101.ue.r.appspot.com/ "link").
+Likewise, you can find a front deployed version in the following [link](https://inlaid-subset-309101.ue.r.appspot.com/ "link"). 💻
