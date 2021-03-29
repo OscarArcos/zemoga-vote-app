@@ -2,67 +2,67 @@
 
 ##### Created by Oscar Arcos
 
-Repositorio para estructurar el front end de la prueba para Zemoga
+Repository to structure the test front end for Zemoga
 
-## Descripción del proyecto
+## Project description
 
-El proyecto es un proyecto de nuxt, por lo que la mayoría de carpetas son carpetas relacionadas con Nuxt.
+The project is a nuxt project, so most of the folders are Nuxt-related folders.
 
-- assets: Contiene archivos estáticos como imágenes, css, etc.
-- components: Aquí se escriben los componentes de la aplicación, estos son, componentes que las distintas `pages` utilizan para construir de manera modular la aplicación
-- layouts: Especifican una estructura general para una o muchas páginas.
-- middleware: Especifican funciones para ser ejecutadas antes de entrar a una página
-- pages: Especifica las diferentes rutas de la página, contienen funcionalidades adicionales que components.
-- plugins: Especifican librerías para ser utilizadas de manera global, también se utiliza para configurar librerías sin SSR
-- server: Contiene el servidor que se va a ejecutar para servir la página web y realizar SSR durante desarrollo
-- static: Contiene archivos estáticos que no se compilan, por ejemplo el favicon.
-- store: Contiene un store de vuex, organizado de manera modular
-- nuxt.config.js: Define la información básica del proyecto de nuxt, por ejemplo si se va a compilar como una spa o como SSR. Define igualmente los plugins que se van a utilizar y sus diferentes configuraciones. Aquí además es donde se configura el `head` del html que se sirve
+- assets: Contains static files such as images, css, etc.
+- components: The components of the application are written here, these are components that the different `pages` use to build the application in a modular way
+- layouts: They specify a general structure for one or many pages.
+- middleware: They specify functions to be executed before entering a page
+- pages: Specify the different paths of the page, they contain additional functionalities than components.
+- plugins: They specify libraries to be used globally, it is also used to configure libraries without SSR
+- server: Contains the server that will be executed to serve the web page and perform SSR during development
+- static: Contains static files that are not compiled, for example the favicon.
+- store: Contains a vuex store, organized in a modular way
+- nuxt.config.js: Defines the basic information of the nuxt project, for example if it is going to be compiled as a spa or as an SSR. It also defines the plugins to be used and their different configurations. This is also where the `head` of the html that is served is configured
 
-Para mayor información ver el README.md de cada carpeta
+For more information see the README.md of each folder
 
-El proyecto debe cumplir con los estándares de eslint y prettier para nuxt para que se pueda ejecutar. Se recomienda para esto utilizar vscode, instalar las extensiones de vscode de eslint y prettier y dejar prettier como el "default formatting"
-(Click derecho, format document with, configure default formatter, prettier)
+The project must meet eslint and prettier standards for nuxt for it to run. For this it is recommended to use vscode, install the eslint and prettier vscode extensions and leave prettier as the "default format"
+(Right click, format document with, configure default formatter, prettier)
 
-## Tecnologías base
+## Base technologies
 
-Se está utilizando NuxtJS, el cual es un framework basado en VueJS. Se usan otras librerías para funcionalidades adicionales
+NuxtJS is being used, which is a framework based on VueJS. Other libraries are used for additional functionalities
 
-### Escogencia de tecnologías
+### Choice of technologies
 
-En este video se observa una comparación de Vue con angular y con React: https://www.youtube.com/watch?v=lYWYWyX04JI
+In this video you can see a comparison of Vue with angular and with React: https://www.youtube.com/watch?v=lYWYWyX04JI
 
-La ventaja de Nuxt es que utiliza VueJS, pero lo extiende de manera que el desarrollo es más sencillo, por ejemplo creando rutas en función de carpetas y archivos definidos en pages
+The advantage of Nuxt is that it uses VueJS, but extends it in a way that development is easier, for example creating paths based on folders and files defined in pages
 
-Para realizar peticiones http se escogió el plugin axios para nuxt, puesto que se pueden crear interceptors para toda la aplicación, por ejemplo en el caso de que el token expire se puede crear uno que lea si la respuesta es 401 y reintente la petición, independientemente de donde sea que se envió la petición
+To make http requests, the axios plugin for nuxt was chosen, since interceptors can be created for the entire application, for example, in the event that the token expires, one can be created that reads if the response is 401 and retries the request, regardless Wherever the request was sent from
 
-Así mismo, utiliza eslint y prettier para darle un formato consistente al código y coherente con los estandares de JS y Nuxt.
+Likewise, it uses eslint and prettier to give a consistent format to the code and consistent with the JS and Nuxt standards.
 
-Este proyecto incluye otras librerías que pueden ser observadas en cada package.json respectivamente
+This project includes other libraries that can be seen in each package.json respectively
 
-## Instrucciones para ejecutar
+## Instructions to execute
 
-### Requisitos
+### Requirements
 
 - **Node JS**
 
-Verificar que nodeJS está instalado ejecutando "node -v" en la terminal o cmd. Puede ser descargado de https://nodejs.org/ (versión LTS)
+Verify that nodeJS is installed by running "node -v" in terminal or cmd. It can be downloaded from https://nodejs.org/ (LTS version)
 
-Instalar las librerías globales necesarias. Para eso se debe ejecutar el siguiente comando en la terminal con permisos de administrador para sistemas UNIX.
+Install the necessary global libraries. For this, the following command must be executed in the terminal with administrator permissions for UNIX systems.
 
 ```
 npm install -g prettier eslint
 ```
 
-Posteriormente se debe ejecutar en la carpeta principal
+Later it must be executed in the main folder
 
 ```
 npm install
 ```
 
-### Correr el proyecto en desarrollo
+### Run the project in development
 
-En la carpeta principal se debe ejecutar
+In the main folder you must run
 
 ```
 npm run dev
