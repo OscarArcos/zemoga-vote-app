@@ -14,7 +14,7 @@ To access the back end files directory run the command
 
 Nevertheless, you can find a deployed version in the following [link](https://zemoga-back.vercel.app/api/people "link"). 💻
 
-**Front end** 💻
+**Front end** 🖼
 
 The front end is built with [Nuxt.js](https://nuxtjs.org/ "Nuxt.js") which is a Vue.js framework that helps us and make it easy the management of data states and more specs. Also, the css preprocessor called [sass](https://sass-lang.com/ "sass") is being used for the main html styles.
 
